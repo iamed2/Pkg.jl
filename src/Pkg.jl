@@ -38,6 +38,7 @@ include("Resolve.jl")
 include("Operations.jl")
 include("API.jl")
 include("REPLMode.jl")
+include("require_to_project.jl")
 
 import .API: add, rm, up, test, gc, init, build, installed, pin, free, checkout, develop, generate, instantiate
 import .Display: status
